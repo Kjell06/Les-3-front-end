@@ -1,0 +1,55 @@
+@use "mixins";
+
+.header{
+    width:80vw;
+    height:15rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:4rem;
+}
+
+.header__logo{
+    font-size:200%;
+    border-radius:50%;
+    color:#F8F0E5;
+    background:#0F2C59;
+    border:0,2rem solid dashed transparent;
+    box-sizing:border-box;
+    width:8rem;
+    height:8rem;
+    @include mixins.flexcenter;
+}
+
+.header__logo:hover{
+    color:#0F2C59;
+    border:0,2rem solid dashed #0F2C59;
+    background:transparent;
+    box-sizing:border-box;
+    transform:rotate(360deg);
+    transition:0.6s all;
+    transition-timing-function:linear;
+}
+
+.header__rightWrapper{
+    display:flex;
+    gap:4rem;
+}
+
+.header__avatar{
+    width:8rem;
+    height:8rem;
+    border-radius:50%;
+}
+
+.header__img{
+    width:8rem;
+    height:8rem;
+    object-fit:cover;
+    border-radius:50%;
+    background:white;
+}
+
+
+
+/*https://colorhunt.co/palette/f8f0e5eadbc8dac0a30f2c59*/

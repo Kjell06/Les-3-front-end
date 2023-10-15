@@ -1,0 +1,80 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+body {
+  background: #F8F0E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 4rem;
+}
+
+.header {
+  width: 80vw;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.header__logo {
+  font-size: 200%;
+  border-radius: 50%;
+  color: #F8F0E5;
+  background: #0F2C59;
+  border: 0, 2rem solid dashed transparent;
+  box-sizing: border-box;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo:hover {
+  color: #0F2C59;
+  border: 0, 2rem solid dashed #0F2C59;
+  background: transparent;
+  box-sizing: border-box;
+  transform: rotate(360deg);
+  transition: 0.6s all;
+  transition-timing-function: linear;
+}
+
+.header__rightWrapper {
+  display: flex;
+  gap: 4rem;
+}
+
+.header__avatar {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.header__img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 50%;
+  background: white;
+}
+
+/*https://colorhunt.co/palette/f8f0e5eadbc8dac0a30f2c59*/
+
+/*# sourceMappingURL=style.css.map */
